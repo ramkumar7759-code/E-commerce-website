@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="details">
+    <img id="image">
+    <div>
+        <h2 id="name"></h2>
+        <p id="desc"></p>
+        <h3 id="price"></h3>
+        <input type="number" id="qty" value="1" min="1">
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script>
+window.onload = loadProduct;
+</script>
+</body>
+</html>

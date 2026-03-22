@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAM's Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🛍️ RAM's Store</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="offers.html">Offers</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO BANNER -->
+<section class="hero">
+    <div class="hero-text">
+        <h2>Big Sale is Live 🔥</h2>
+        <p>Up to 50% OFF on selected items</p>
+        <a href="products.html"><button>Shop Now</button></a>
+    </div>
+</section>
+
+<!-- OFFERS STRIP -->
+<section class="offers">
+    <div class="offer-card">🎉 Buy 1 Get 1 Free</div>
+    <div class="offer-card">💸 Flat ₹500 OFF</div>
+    <div class="offer-card">🚚 Free Delivery</div>
+</section>
+
+<h2 class="section-title">Featured Products</h2>
+<div class="products" id="featured"></div>
+
+<footer>
+    <p>© 2026 ShopX. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+window.onload = () => displayProducts("featured", 6);
+</script>
+</body>
+</html>
