@@ -10,6 +10,7 @@ cart.forEach((item,i)=>{
 
 document.getElementById("cartItems").innerHTML = html;
 document.getElementById("total").innerText = "Grand Total: ₹" + total;
+ 
 
 function removeItem(i){
  cart.splice(i,1);
